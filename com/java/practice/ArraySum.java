@@ -5,15 +5,15 @@ public class ArraySum {
 
 	public static void main(String[] args) {
 		
-		int n;
-		int []arr;
+	 int n;
+		long []arr;
 		
 		Scanner in = new Scanner(System.in);
 		
 		n=in.nextInt();
 		
-		arr=new int[n];
-		int sum=0;
+		arr=new long[n];
+		long sum=0;
 		for(int i=0; i<n; i++){
 			arr[i]=in.nextInt();
 			sum=sum+arr[i];
