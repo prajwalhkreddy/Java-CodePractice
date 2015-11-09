@@ -1,9 +1,6 @@
 package com.java.practice;
 import java.util.Scanner;
 
-import com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable;
-
-
 public class ArraySum {
 
 	public static void main(String[] args) {
